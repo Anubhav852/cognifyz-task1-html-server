@@ -20,6 +20,8 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+        working-directory: ./level1-task1
 
       - name: Check server starts
         run: timeout 5 node server.js || true
+        working-directory: ./level1-task1
