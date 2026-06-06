@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Submission Result</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="result-card">
+      <h1>Form Submitted Successfully!</h1>
+      <p>Here are the details you submitted:</p>
+
+      <div class="result-item">
+        <span class="label">Full Name:</span>
+        <span class="value"><%= name %></span>
+      </div>
+
+      <div class="result-item">
+        <span class="label">Email:</span>
+        <span class="value"><%= email %></span>
+      </div>
+
+      <div class="result-item">
+        <span class="label">Phone:</span>
+        <span class="value"><%= phone %></span>
+      </div>
+
+      <div class="result-item">
+        <span class="label">Message:</span>
+        <span class="value"><%= message %></span>
+      </div>
+
+      <a href="/" class="back-btn">Submit Another Response</a>
+    </div>
+  </div>
+</body>
+</html>
